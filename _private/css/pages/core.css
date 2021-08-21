@@ -1,0 +1,35 @@
+/*
+ * Core Proyect
+ * @author mfyance
+ */
+
+@charset "utf-8";
+@import '../design-system/__design-system.css';
+@import 'home.css';
+@import 'categorias.css';
+
+
+body{
+	font-family: "Exo 2"
+}
+
+
+
+.site{
+	
+}
+.site-header{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.site-main{
+	max-width: 1500px;
+	margin: 0 auto;
+}
+.site-footer{
+	
+}
+
+
+

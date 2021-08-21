@@ -1,0 +1,37 @@
+/*
+ * Design Tokens
+ * @author mfyance
+ */
+
+:root{
+    --layout-max: 1700px;
+    --color-black: #000;    
+    --color-primary: #300862;    
+    --color-secondary: #fff;
+    --color-terciary: #25064B;
+    --color-quaternary: #E1153F;
+    --color-quinary: #48128C;
+    --color-senary: #1C004E;
+    --color-septenary: #25064B;
+    --background-quaternary:#E1153F;
+    --background-quinary: #300763;
+    --hover-primary: #ff0a3b;
+    --color-grey:#E4E4E4;
+    --color-error:#ff0909;
+    --color-success:#44ca8d;
+    --color-info:#dbae5b;
+    --font-primary: Gotham;
+    --font-oxygen: Oxygen;
+    --font-secondary: Fredoka One;
+    --font-fredoka: Fredoka One;
+    --font-size-xxs: 12px;
+    --font-size-xs-two: 16px;
+    --font-size-xs: 14px;
+    --font-size-x: 17px;
+    --font-size-md: 20px;
+    --font-size-lg: 24px;
+    --font-size-xl: 27px;
+    --font-size-xxl: 40px;
+}
+
+

@@ -1,0 +1,163 @@
+/*
+ * Modals
+ * @author mfyance
+ */
+
+
+
+ /* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding: 26em 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgb(14 1 29 / 92%);
+    z-index: 100;
+}
+  
+
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 680px;
+    margin-bottom: 10em;
+    background: transparent;
+    display: grid;
+    justify-items: center;
+  }
+
+
+  .button-modal {
+    max-Width: 194px;
+    min-Height: 60px;
+  }
+
+  
+
+  .close {
+    color: var(--color-info);
+    position: absolute;
+    top: -70px;
+    right: calc(50% - 60px);
+    font-size: 52px;
+    font-weight: bold;
+    z-index: 1000;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    line-height: 100px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+
+  .mySlides {
+    display: none;
+  }
+  
+
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 25%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    z-index: 100;
+  }
+  
+
+  .next {
+    right: -1%;
+    border-radius: 3px 0 0 3px;
+  }
+
+
+  .prev {
+    left: -1%;
+    border-radius: 3px 0 0 3px;
+  }
+  
+
+  .prev:hover,
+  .next:hover {
+    background: rgba(255,255,255, .5);
+  }
+
+
+  .contenedor-img-control {
+      display: grid;
+      grid-auto-flow: column;
+      gap: 1em;
+      padding: 2.5em 5em 3em 5em;
+      position: relative;
+  }
+
+
+ .demo {
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 100px;
+    min-height: 100px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+ .hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+
+@media (max-width: 500px) {
+
+  .next,
+  .prev{
+    display: none;
+  }
+
+  .modal-content{ 
+    max-width: 100%;
+    width: 100%;
+
+  }
+
+}
+

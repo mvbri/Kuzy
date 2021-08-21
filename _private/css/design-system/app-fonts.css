@@ -1,0 +1,11 @@
+/*
+ * Fonts
+ * @author mfyance
+ */
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../../fonts/gothambook-webfont.woff2') format('woff2'),
+         url('../../fonts/gothambook-webfont.woff') format('woff');
+}
+

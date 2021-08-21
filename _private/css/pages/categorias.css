@@ -1,0 +1,121 @@
+
+.group-principal-categorias {
+    max-height: 200px;
+    max-width: 200px;
+    top: -25% !important;
+    left: 8%;
+}
+
+.contenedor-social-whatsapp-categorias {
+    top: 17%;
+}
+
+.contenedor-filtra-categorias {
+    gap: 2em;
+    margin-top: 3em;
+}
+
+.contenedor-button-terciary {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3em;
+    display: none;
+}
+
+.contenedor-principal-modelos {
+    gap: 3em;
+    padding: 10px;
+}
+
+.container-categorias {
+    top: 5em;
+}
+
+/* ---- button ---- */
+
+.button {
+    font-family: "Exo 2";
+    height: 44px;
+    width: 85px;
+    border-radius: 5px;
+    border: 1px solid #1E053E;
+    background: #fff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0;
+    text-align: left;
+    margin: 1em;
+    padding: 20px 55px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background: #161D54;
+    color: #fff;
+}
+
+.button.is-checked,
+.button:active {
+    background: #161D54;
+}
+
+.button.is-checked {
+    color: white;
+    text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+}
+
+.button:active {
+    box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+/* ---- button-group ---- */
+
+.button-group:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.button-group .button {
+    
+    font-family: "Exo 2";
+    margin-left: 7px;
+}
+
+
+/* ---- isotope ---- */
+
+/* clear fix */
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* ---- .element-item ---- */
+
+.element-item {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    background: #888;
+    color: #262524;
+}
+
+.element-item > * {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-item--width2 {
+    width: 250px;
+}
+.grid-item--height2 {
+    height: 250px;
+}
